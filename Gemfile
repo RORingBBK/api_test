@@ -10,7 +10,8 @@ gem 'spring', :group => :development
 
 gem 'sqlite3'
 
-
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'sass-rails', '>= 3.2'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
