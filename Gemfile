@@ -26,6 +26,7 @@ gem 'spring', :group => :development
 
 group :development do 
   gem 'sqlite3'
+  gem 'byebug', '~> 9.0', '>= 9.0.6'
 end
 
 group :production do 
