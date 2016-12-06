@@ -1,16 +1,36 @@
-<h1>FILMS</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Films</title>
 
-<table id="films" class="table table-bordered">
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Year</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><%= @random_data.title %></td>
-      <td><%= @random_data.year %></td>
-    </tr>
-  </tbody>
-</table>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+  <body>
+    <div class="container">
+      <h1>FILMS</h1>
+
+      <table id="films" class="table table-hover table-inverse">
+        <thead>
+          <tr class="bg-primary">
+            <th>Title</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><%= @random_data.title %></td>
+            <td><%= @random_data.year %></td>
+          </tr>
+        </tbody>
+      </table>  
+    </div>
+  </body>
+</html>
+
+
+
+
+
