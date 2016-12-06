@@ -1,28 +1,15 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README includes further information of the application.
 
-Things you may want to cover:
+* Ruby version: "2.3.1"
 
-* Ruby version
+* Architecture flow: 
+  - User enters particular url in browser.
+  - The URL is parsed and routes to particular action.
+  - According to the endpoint given by User, respective results are shown which is fetched from the database (model).
+  - The model returns the data and is passed to view in case the endpoint is html.
+  - Likewise json and xml format is displayed accordingly.
+  - Finally the output is shown to the browser.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* The application is further deployed in Heroku. You can access it from https://bbkapi.herokuapp.com/
