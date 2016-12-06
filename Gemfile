@@ -24,6 +24,10 @@ gem 'spring', :group => :development
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
+
 group :development do 
   gem 'sqlite3'
   gem 'byebug', '~> 9.0', '>= 9.0.6'
